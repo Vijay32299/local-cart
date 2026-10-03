@@ -1,0 +1,6 @@
+{
+  "name": "LocalKart - Local Shop & Chaupati Finder",
+  "description": "Discover authentic local shops, street food stalls, and chaupatis. Browse menus, compare local prices, view locations, and connect directly with local shopkeepers.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
