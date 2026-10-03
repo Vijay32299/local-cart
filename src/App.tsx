@@ -5,16 +5,16 @@
 
 import React, { useState, useEffect } from 'react';
 import { APIProvider } from '@vis.gl/react-google-maps';
-import { AppProvider, useApp } from './frontend/context/AppContext';
-import { Navbar } from './frontend/components/Navbar';
-import { Footer } from './frontend/components/Footer';
-import { Home } from './frontend/pages/Home';
-import { ShopDetails } from './frontend/pages/ShopDetails';
-import { ShopDashboard } from './frontend/pages/ShopDashboard';
-import { AdminDashboard } from './frontend/pages/AdminDashboard';
-import { PriceCompare } from './frontend/pages/PriceCompare';
-import { Login } from './frontend/pages/Login';
-import { Register } from './frontend/pages/Register';
+import { AppProvider, useApp } from './context/AppContext';
+import { Navbar } from './components/Navbar';
+import { Footer } from './components/Footer';
+import { Home } from './pages/Home';
+import { ShopDetails } from './pages/ShopDetails';
+import { ShopDashboard } from './pages/ShopDashboard';
+import { AdminDashboard } from './pages/AdminDashboard';
+import { PriceCompare } from './pages/PriceCompare';
+import { Login } from './pages/Login';
+import { Register } from './pages/Register';
 
 const MainContent: React.FC = () => {
   const { activePage } = useApp();
@@ -74,4 +74,3 @@ export default function App() {
     </APIProvider>
   );
 }
-
